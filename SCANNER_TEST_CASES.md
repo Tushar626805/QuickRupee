@@ -15,5 +15,6 @@ This project is intentionally flawed for local scanner testing. All data is fake
 | QR-08 | Third-party sharing represented without disclosure workflow | backend/app.py | High |
 | QR-09 | Sensitive fields shown unmasked in admin view | frontend/src/App.jsx | Medium |
 | QR-10 | Retention duration not defined | backend/app.py | Medium |
+| QR-11 | Silent unconsented background exfiltration of contacts and photos | frontend/src/App.jsx | Critical |
 
 Severity is illustrative. Static findings are potential issues, not legal conclusions. The app is a local demo and never requests real device permissions or sends data to external recipients.
